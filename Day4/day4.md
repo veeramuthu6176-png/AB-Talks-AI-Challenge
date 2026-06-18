@@ -8,12 +8,17 @@
 - Timeline: 2 Years
 - Biggest Skill Gap: MLOps & Deployment
 - Top Priority: PyTorch → RAG → FastAPI → Cloud
-
-## Biggest Insight
-[உன் own words-la write பண்ணு]
+- 
+## observations section
+CoT prompting என்னோட career-லயும் apply ஆச்சு!
+MLOps & Deployment என்னோட biggest skill gap.
+Python, ML தெரிஞ்சாலும் model ship பண்ண
+தெரியலன்னா AI Engineer இல்ல — just AI Student.
 
 ## Screenshots
-[Roadmap PDF screenshot attach பண்ணு]
+![Roadmap](roadmap.png)
 
 ## Observations
-[என்ன புதுசா learn பண்ணே]
+- CoT = model-ஐ step-by-step think பண்ண வைக்கும்
+- Same logic use பண்ணி Claude என் career analyze பண்ணது useful
+- 2 years-la AI Engineer ஆகணும்னா MLOps இப்பவே start பண்ணணும்
