@@ -11,14 +11,12 @@
 - 
 ## Biggest Insight section
 CoT prompting என்னோட career-லயும் apply ஆச்சு!
-MLOps & Deployment என்னோட biggest skill gap.
-Python, ML தெரிஞ்சாலும் model ship பண்ண
-தெரியலன்னா AI Engineer இல்ல — just AI Student.
-
+MLOps இல்லாம AI Engineer இல்ல — just AI Student.
 ## Screenshots
-![Roadmap](roadmap.png)
+See roadmap PDF attached above
 
 ## Observations
-- CoT = model-ஐ step-by-step think பண்ண வைக்கும்
-- Same logic use பண்ணி Claude என் career analyze பண்ணது useful
-- 2 years-la AI Engineer ஆகணும்னா MLOps இப்பவே start பண்ணணும்
+
+- CoT = step-by-step reasoning technique
+- Same logic helps in career planning too
+- MLOps is my #1 priority to learn next
