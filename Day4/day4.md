@@ -10,13 +10,13 @@
 - Top Priority: PyTorch → RAG → FastAPI → Cloud
 - 
 ## Biggest Insight section
-CoT prompting என்னோட career-லயும் apply ஆச்சு!
-MLOps இல்லாம AI Engineer இல்ல — just AI Student.
-## Screenshots
-See roadmap PDF attached above
+MLOps இல்லாம AI Engineer இல்ல என்று புரிஞ்சது
+
+##Screenshot
+Roadmap generated using Claude AI
 
 ## Observations
+- CoT prompting helps LLMs reason step by step
+- MLOps is my biggest skill gap
+- Will start PyTorch this week
 
-- CoT = step-by-step reasoning technique
-- Same logic helps in career planning too
-- MLOps is my #1 priority to learn next
