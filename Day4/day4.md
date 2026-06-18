@@ -12,7 +12,7 @@
 ## Biggest Insight section
 MLOps இல்லாம AI Engineer இல்ல என்று புரிஞ்சது
 
-##Screenshot
+## Screenshot
 Roadmap generated using Claude AI
 
 ## Observations
