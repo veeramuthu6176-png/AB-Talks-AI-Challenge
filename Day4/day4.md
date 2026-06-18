@@ -9,7 +9,7 @@
 - Biggest Skill Gap: MLOps & Deployment
 - Top Priority: PyTorch → RAG → FastAPI → Cloud
 - 
-## observations section
+## Biggest Insight section
 CoT prompting என்னோட career-லயும் apply ஆச்சு!
 MLOps & Deployment என்னோட biggest skill gap.
 Python, ML தெரிஞ்சாலும் model ship பண்ண
