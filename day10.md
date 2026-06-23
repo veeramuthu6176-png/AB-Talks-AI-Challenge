@@ -1,543 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+PORTFOLIO CONTENT (FINAL VERSION)
 
-<title>A. Veeramuthu | AI & Data Science Portfolio</title>
-<meta name="description" content="A. Veeramuthu - Artificial Intelligence & Data Science Student, Machine Learning Enthusiast, GenAI Builder, and AI/ML Internship Aspirant." />
-<meta name="keywords" content="Veeramuthu, AI Engineer, Machine Learning, Data Science, Portfolio, GenAI, Python, TensorFlow" />
-<meta name="author" content="A. Veeramuthu" />
+HERO SECTION
 
-<script src="https://cdn.tailwindcss.com"></script>
+Name
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+A. Veeramuthu
 
-<style>
-*{
-font-family:'Inter',sans-serif;
-scroll-behavior:smooth;
-}
+Title
 
-body{
-transition:all .3s ease;
-}
+AI & Data Science Student | Python Developer | GenAI Learner
 
-.glass{
-backdrop-filter: blur(15px);
-}
+Hero Description
 
-.gradient-text{
-background:linear-gradient(90deg,#06b6d4,#8b5cf6);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-}
+Passionate Artificial Intelligence and Data Science student with a strong interest in Machine Learning, Data Analytics, and Generative AI. Focused on building practical projects, solving real-world problems, and continuously improving technical skills through hands-on learning and experimentation.
 
-.project-card{
-transition:.3s ease;
-}
+Buttons
 
-.project-card:hover{
-transform:translateY(-8px);
-}
+- Download Resume
+- GitHub
+- LinkedIn
+- Contact Me
 
-.skill-bar{
-animation:grow 2s ease forwards;
-transform-origin:left;
-}
+---
 
-@keyframes grow{
-from{
-transform:scaleX(0);
-}
-to{
-transform:scaleX(1);
-}
-}
+ABOUT ME
 
-.fade-up{
-opacity:0;
-transform:translateY(30px);
-transition:.7s ease;
-}
+I am currently pursuing a B.Tech degree in Artificial Intelligence and Data Science at Sri Venkateswara College of Engineering and Technology, affiliated with Anna University.
 
-.fade-up.show{
-opacity:1;
-transform:translateY(0);
-}
+I enjoy exploring Machine Learning, Data Analytics, Prompt Engineering, and Generative AI technologies. Through continuous learning and project development, I am building a strong foundation in AI and data-driven problem solving.
 
-.cursor{
-animation:blink 1s infinite;
-}
+I actively document my learning journey through AI challenges, practical implementations, and project-based learning. My goal is to build impactful AI solutions and establish a successful career in Artificial Intelligence and Machine Learning.
 
-@keyframes blink{
-50%{
-opacity:0;
-}
-}
+---
 
-.active-link{
-color:#06b6d4 !important;
-}
-</style>
-</head>
+EDUCATION
 
-<body class="bg-slate-950 text-white">
+B.Tech Artificial Intelligence and Data Science
 
-<!-- NAVBAR -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-lg border-b border-slate-800">
-<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+Sri Venkateswara College of Engineering and Technology
 
-<h1 class="font-bold text-xl gradient-text">
-Veeramuthu
-</h1>
+Affiliated to Anna University
 
-<div class="hidden md:flex gap-8 text-sm font-medium">
-<a href="#home" class="nav-link">Home</a>
-<a href="#about" class="nav-link">About</a>
-<a href="#skills" class="nav-link">Skills</a>
-<a href="#projects" class="nav-link">Projects</a>
-<a href="#achievements" class="nav-link">Achievements</a>
-<a href="#contact" class="nav-link">Contact</a>
-</div>
+2023 – 2027
 
-<button id="themeBtn"
-class="px-4 py-2 rounded-lg bg-cyan-500 text-black font-semibold">
-☀
-</button>
+CGPA: 8.5
 
-</div>
-</nav>
+---
 
-<!-- HERO -->
-<section id="home" class="min-h-screen flex items-center justify-center px-6">
+SKILLS
 
-<div class="text-center max-w-4xl">
+Programming Languages
 
-<div class="inline-block px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 mb-6">
-🚀 Open to AI/ML Internship Opportunities
-</div>
+- Python
+- SQL
 
-<h1 class="text-5xl md:text-7xl font-black mb-4">
-A.
-<span class="gradient-text">Veeramuthu</span>
-</h1>
+Data Analysis
 
-<h2 class="text-xl md:text-2xl text-slate-300 mb-6">
-<span id="typing"></span>
-<span class="cursor">|</span>
-</h2>
+- NumPy
+- Pandas
+- Data Cleaning
+- Data Visualization
 
-<p class="text-slate-400 max-w-2xl mx-auto leading-relaxed">
-Artificial Intelligence & Data Science student at Anna University.
-Passionate about Machine Learning, Deep Learning, Neural Networks,
-Large Language Models, and building AI products that solve real-world problems.
-</p>
+Machine Learning
 
-<div class="flex justify-center gap-4 mt-8 flex-wrap">
+- Scikit-Learn
+- Supervised Learning
+- Unsupervised Learning
+- Model Evaluation
 
-<a href="mailto:veeramuthu6176@gmail.com"
-class="px-6 py-3 rounded-xl bg-cyan-500 text-black font-semibold">
-Email Me
-</a>
+Generative AI
 
-<a href="https://github.com/veeramuthu6176-png"
-target="_blank"
-class="px-6 py-3 rounded-xl border border-slate-700">
+- Prompt Engineering
+- LLM Fundamentals
+- Responsible AI
+- AI Productivity Tools
+
+Tools & Platforms
+
+- Git
+- GitHub
+- VS Code
+- Jupyter Notebook
+- Google Colab
+
+Soft Skills
+
+- Communication
+- Problem Solving
+- Team Collaboration
+- Leadership
+
+---
+
+PROJECTS
+
+1. AI Learning Portfolio – 60 Days of AI Challenge
+
+A structured learning challenge focused on Artificial Intelligence, Machine Learning, Generative AI, Prompt Engineering, and AI tools.
+
+Highlights
+
+- Documented daily AI learning activities
+- Shared project progress publicly
+- Practiced AI concepts consistently
+- Improved technical communication and documentation skills
+
+Technologies
+
+Python, GitHub, AI Tools
+
+---
+
+2. Neural Network From Scratch
+
+Developed a neural network implementation using NumPy and Backpropagation techniques to solve XOR classification problems.
+
+Highlights
+
+- Implemented feed-forward propagation
+- Built backpropagation manually
+- Applied gradient descent optimization
+- Learned neural network fundamentals without frameworks
+
+Technologies
+
+Python, NumPy
+
+---
+
+3. Environmental Health Analyzer
+
+Developed an environmental monitoring dashboard capable of analyzing environmental indicators and presenting visual insights.
+
+Highlights
+
+- Data preprocessing
+- Data visualization
+- Interactive dashboard concepts
+- Environmental data interpretation
+
+Technologies
+
+Python, Pandas
+
+---
+
+4. Naan Mudhalvan AI Project
+
+Academic project completed as part of the Naan Mudhalvan Skill Development Program.
+
+Highlights
+
+- Data preprocessing
+- Machine learning workflow
+- Model evaluation
+- Practical AI implementation
+
+Technologies
+
+Python, Machine Learning
+
+---
+
+CERTIFICATIONS
+
+Google & Coursera Certifications
+
+- Stay Ahead of the AI Curve (June 2026)
+- Use AI Responsibly (June 2026)
+- Discover the Art of Prompting (June 2026)
+- Maximize Productivity With AI Tools (June 2026)
+
+---
+
+ACHIEVEMENTS
+
+- Completed multiple Google-authorized AI certifications.
+- Built and documented AI learning projects.
+- Participated in AI skill development initiatives.
+- Consistently practiced project-based learning.
+- Developed AI and Machine Learning mini-projects.
+
+---
+
+CAREER OBJECTIVE
+
+Seeking AI/ML Internship opportunities where I can apply my knowledge of Python, Machine Learning, Data Analysis, and Generative AI while gaining industry experience and contributing to innovative technology projects.
+
+---
+
+CONTACT
+
+Email
+
+veeramuthu6176@gmail.com
+
 GitHub
-</a>
 
-<a href="https://linkedin.com/in/veeramuthu-ai"
-target="_blank"
-class="px-6 py-3 rounded-xl border border-slate-700">
+https://github.com/veeramuthu6176-png
+
 LinkedIn
-</a>
 
-</div>
+https://linkedin.com/in/veeramuthu-ai
 
-</div>
+Location
 
-</section>
+Tamil Nadu, India
 
-<!-- ABOUT -->
-<section id="about" class="py-24 px-6 fade-up">
-<div class="max-w-6xl mx-auto">
+---
 
-<h2 class="text-4xl font-bold mb-10 gradient-text">
-About Me
-</h2>
+FOOTER
 
-<div class="grid md:grid-cols-2 gap-10">
-
-<div>
-<p class="text-slate-300 leading-8">
-I am a B.Tech Artificial Intelligence and Data Science student
-at Sri Venkateswara College of Engineering and Technology (Anna University)
-with a CGPA of 8.5.
-</p>
-
-<p class="text-slate-300 leading-8 mt-5">
-I actively build in public through my 60 Days of AI challenge where
-I document AI, Machine Learning, Deep Learning, and LLM projects.
-My goal is to become a high-impact AI Engineer and contribute
-to innovative startup ecosystems.
-</p>
-</div>
-
-<div class="grid grid-cols-2 gap-5">
-
-<div class="bg-slate-900 p-6 rounded-2xl">
-<h3 class="text-3xl font-bold text-cyan-400">8.5</h3>
-<p>CGPA</p>
-</div>
-
-<div class="bg-slate-900 p-6 rounded-2xl">
-<h3 class="text-3xl font-bold text-purple-400">60+</h3>
-<p>Days AI Challenge</p>
-</div>
-
-<div class="bg-slate-900 p-6 rounded-2xl">
-<h3 class="text-3xl font-bold text-cyan-400">2027</h3>
-<p>Graduation</p>
-</div>
-
-<div class="bg-slate-900 p-6 rounded-2xl">
-<h3 class="text-3xl font-bold text-purple-400">AI/ML</h3>
-<p>Career Focus</p>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="py-24 px-6 bg-slate-900/40 fade-up">
-
-<div class="max-w-6xl mx-auto">
-
-<h2 class="text-4xl font-bold mb-12 gradient-text">
-Skills
-</h2>
-
-<div class="grid md:grid-cols-2 gap-10">
-
-<div>
-
-<div class="mb-6">
-<div class="flex justify-between mb-2">
-<span>Python</span>
-<span>90%</span>
-</div>
-<div class="bg-slate-800 h-3 rounded-full">
-<div class="skill-bar bg-cyan-500 h-3 rounded-full w-[90%]"></div>
-</div>
-</div>
-
-<div class="mb-6">
-<div class="flex justify-between mb-2">
-<span>Machine Learning</span>
-<span>85%</span>
-</div>
-<div class="bg-slate-800 h-3 rounded-full">
-<div class="skill-bar bg-purple-500 h-3 rounded-full w-[85%]"></div>
-</div>
-</div>
-
-<div class="mb-6">
-<div class="flex justify-between mb-2">
-<span>Deep Learning</span>
-<span>80%</span>
-</div>
-<div class="bg-slate-800 h-3 rounded-full">
-<div class="skill-bar bg-cyan-500 h-3 rounded-full w-[80%]"></div>
-</div>
-</div>
-
-<div class="mb-6">
-<div class="flex justify-between mb-2">
-<span>LLMs & GenAI</span>
-<span>78%</span>
-</div>
-<div class="bg-slate-800 h-3 rounded-full">
-<div class="skill-bar bg-purple-500 h-3 rounded-full w-[78%]"></div>
-</div>
-</div>
-
-</div>
-
-<div>
-
-<div class="flex flex-wrap gap-3">
-
-<span class="px-4 py-2 bg-slate-800 rounded-full">Python</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">NumPy</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">Pandas</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">Scikit-Learn</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">TensorFlow</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">Keras</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">HuggingFace</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">Git</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">GitHub</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">VS Code</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">Jupyter</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">Prompt Engineering</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">Leadership</span>
-<span class="px-4 py-2 bg-slate-800 rounded-full">Communication</span>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="py-24 px-6 fade-up">
-
-<div class="max-w-6xl mx-auto">
-
-<h2 class="text-4xl font-bold mb-12 gradient-text">
-Projects
-</h2>
-
-<div class="grid md:grid-cols-3 gap-8">
-
-<div class="project-card bg-slate-900 p-6 rounded-3xl">
-<h3 class="font-bold text-xl mb-4">
-60 Days of AI
-</h3>
-<p class="text-slate-400 mb-5">
-Public AI learning challenge documenting ML, DL,
-LLMs and AI engineering concepts.
-</p>
-
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-cyan-500/20 rounded-full text-sm">Python</span>
-<span class="px-3 py-1 bg-cyan-500/20 rounded-full text-sm">ML</span>
-<span class="px-3 py-1 bg-cyan-500/20 rounded-full text-sm">GenAI</span>
-</div>
-</div>
-
-<div class="project-card bg-slate-900 p-6 rounded-3xl">
-<h3 class="font-bold text-xl mb-4">
-Backpropagation Neural Network
-</h3>
-<p class="text-slate-400 mb-5">
-Built a neural network from scratch to solve XOR
-using gradient descent and backpropagation.
-</p>
-
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-purple-500/20 rounded-full text-sm">NumPy</span>
-<span class="px-3 py-1 bg-purple-500/20 rounded-full text-sm">Neural Nets</span>
-</div>
-</div>
-
-<div class="project-card bg-slate-900 p-6 rounded-3xl">
-<h3 class="font-bold text-xl mb-4">
-Naan Mudhalvan AI Project
-</h3>
-<p class="text-slate-400 mb-5">
-Academic AI/ML project developed under the
-Tamil Nadu Skill Development initiative.
-</p>
-
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-cyan-500/20 rounded-full text-sm">Python</span>
-<span class="px-3 py-1 bg-cyan-500/20 rounded-full text-sm">Machine Learning</span>
-</div>
-</div>
-
-</div>
-
-</div>
-</section>
-
-<!-- ACHIEVEMENTS -->
-<section id="achievements" class="py-24 px-6 bg-slate-900/40 fade-up">
-
-<div class="max-w-6xl mx-auto">
-
-<h2 class="text-4xl font-bold mb-12 gradient-text">
-Achievements & Certifications
-</h2>
-
-<div class="space-y-6">
-
-<div class="bg-slate-900 p-6 rounded-2xl">
-🏆 Google Cloud Generative AI Certification
-</div>
-
-<div class="bg-slate-900 p-6 rounded-2xl">
-🏆 AI Fundamentals — LLMs & Responsible AI
-</div>
-
-<div class="bg-slate-900 p-6 rounded-2xl">
-🏆 IICT AI Skills House Program
-</div>
-
-<div class="bg-slate-900 p-6 rounded-2xl">
-🏆 Claude AI Mastery Challenge
-</div>
-
-</div>
-
-</div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="py-24 px-6 fade-up">
-
-<div class="max-w-4xl mx-auto">
-
-<h2 class="text-4xl font-bold mb-10 text-center gradient-text">
-Contact Me
-</h2>
-
-<form class="space-y-5">
-
-<input
-type="text"
-placeholder="Your Name"
-class="w-full p-4 rounded-xl bg-slate-900 border border-slate-700"
-/>
-
-<input
-type="email"
-placeholder="Your Email"
-class="w-full p-4 rounded-xl bg-slate-900 border border-slate-700"
-/>
-
-<textarea
-rows="5"
-placeholder="Your Message"
-class="w-full p-4 rounded-xl bg-slate-900 border border-slate-700"></textarea>
-
-<button
-type="submit"
-class="w-full bg-cyan-500 text-black font-bold py-4 rounded-xl">
-Send Message
-</button>
-
-</form>
-
-<div class="text-center mt-10 text-slate-400">
-<p>📧 veeramuthu6176@gmail.com</p>
-<p>📍 Arakkonam, Tamil Nadu, India</p>
-</div>
-
-</div>
-
-</section>
-
-<!-- FOOTER -->
-<footer class="border-t border-slate-800 py-8 text-center text-slate-500">
 © 2026 A. Veeramuthu | AI & Data Science Portfolio
-</footer>
-
-<script>
-
-// Typing Animation
-const roles = [
-"AI & Data Science Student",
-"Machine Learning Enthusiast",
-"GenAI Builder",
-"Future AI Engineer"
-];
-
-let roleIndex = 0;
-let charIndex = 0;
-let deleting = false;
-
-const typing = document.getElementById("typing");
-
-function typeEffect(){
-
-const current = roles[roleIndex];
-
-if(!deleting){
-typing.textContent = current.substring(0,charIndex++);
-if(charIndex > current.length){
-deleting = true;
-setTimeout(typeEffect,1200);
-return;
-}
-}else{
-typing.textContent = current.substring(0,charIndex--);
-if(charIndex < 0){
-deleting = false;
-roleIndex = (roleIndex + 1) % roles.length;
-}
-}
-
-setTimeout(typeEffect,deleting ? 40 : 80);
-}
-
-typeEffect();
-
-// Scroll Animation
-const observer = new IntersectionObserver(entries=>{
-entries.forEach(entry=>{
-if(entry.isIntersecting){
-entry.target.classList.add("show");
-}
-});
-});
-
-document.querySelectorAll(".fade-up").forEach(el=>{
-observer.observe(el);
-});
-
-// Dark Light Mode
-const btn = document.getElementById("themeBtn");
-
-btn.addEventListener("click",()=>{
-
-document.body.classList.toggle("bg-white");
-document.body.classList.toggle("text-black");
-document.body.classList.toggle("bg-slate-950");
-document.body.classList.toggle("text-white");
-
-btn.textContent =
-document.body.classList.contains("bg-white")
-? "🌙"
-: "☀";
-
-});
-
-// Active Nav
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll(".nav-link");
-
-window.addEventListener("scroll",()=>{
-
-let current = "";
-
-sections.forEach(section=>{
-const top = section.offsetTop - 120;
-
-if(scrollY >= top){
-current = section.getAttribute("id");
-}
-});
-
-navLinks.forEach(link=>{
-link.classList.remove("active-link");
-
-if(link.getAttribute("href")==="#" + current){
-link.classList.add("active-link");
-}
-});
-
-});
-
-</script>
-
-</body>
-</html>
