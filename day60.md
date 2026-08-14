@@ -1,2 +1,51 @@
-// PostHog Analytics - Free up to 1M events
-!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog.people"==t&&(e+="."+t),e},u.people.toString=function(){return u.toString()+".people"},o="capture identify alias people.set people.set_once set_config register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeature
+const debugBtn = document.getElementById('debugBtn');
+const codeInput = document.getElementById('codeInput');
+const resultDiv = document.getElementById('result');
+const errorDiv = document.getElementById('error');
+const loadingDiv = document.getElementById('loading');
+
+const API_URL = 'https://debuglens-api.onrender.com/debug'; // unoda backend url
+
+debugBtn.addEventListener('click', async () => {
+  const code = codeInput.value.trim();
+  if (!code) {
+    showError('Please paste some code + error first');
+    return;
+  }
+
+  // Show loading
+  loadingDiv.classList.remove('hidden');
+  resultDiv.classList.add('hidden');
+  errorDiv.classList.add('hidden');
+  debugBtn.disabled = true;
+  debugBtn.innerText = 'Debugging...';
+
+  try {
+    const res = await fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code })
+    });
+
+    if (!res.ok) throw new Error('Server error. Please try again.');
+
+    const data = await res.json();
+    showResult(data.fix);
+  } catch (err) {
+    showError(err.message);
+  } finally {
+    loadingDiv.classList.add('hidden');
+    debugBtn.disabled = false;
+    debugBtn.innerText = 'Debug with AI';
+  }
+});
+
+function showResult(text) {
+  resultDiv.innerText = text;
+  resultDiv.classList.remove('hidden');
+}
+
+function showError(text) {
+  errorDiv.innerText = text;
+  errorDiv.classList.remove('hidden');
+}
